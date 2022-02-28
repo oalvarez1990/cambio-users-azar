@@ -1,18 +1,15 @@
-import { useState } from 'react';
 
 import './App.css';
-import React, { useEffect } from 'react';
-import User from './Components/User';
-
-
+import React from 'react';
+import Quote from './Components/Quote'
 
 function App() {
 
 
   return (
     <div className="App">
-      <User />
-      
+      {/* <User /> */}
+      <Quote />
 
     </div >
   );

@@ -26,7 +26,7 @@ const User = () => {
 
     return (
         <div className="card" style={{ color: color }}>
-            <h2>Consulta de usuarios</h2>
+            <h2>USUARIOS</h2>
             <h1>
                 {user.name.title} {user.name.first} {user.name.last}
             </h1>
